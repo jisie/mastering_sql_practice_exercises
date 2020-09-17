@@ -219,6 +219,6 @@ SET business_name = 'The Last Dealership'
 WHERE dealership_id = 1000;
 
 INSERT INTO dealerships(business_name, city, state, website, tax_id)
-VALUES ('New Dealership in Music City', 'Nashville', 'Tennessee', 'www.test.com', 'ab-200-2000');
+VALUES ('New Dealership in Music City', 'Nashville', 'Tennessee', 'www.test.com', 'ab-200-2000-6a');
 
 SELECT * FROM dealerships ORDER BY dealership_id DESC;
